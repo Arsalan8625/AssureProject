@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="147496" started-at="2022-03-10T09:22:45Z" finished-at="2022-03-10T09:25:13Z">
+    <groups>
+    </groups>
+    <test name="AssureLabs" duration-ms="147496" started-at="2022-03-10T09:22:45Z" finished-at="2022-03-10T09:25:13Z">
+      <class name="com.testcase_testng.TC_InvestorRetirmentProfile">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.testcase_testng.TC_InvestorRetirmentProfile@72cc7e6f]" name="OpenBrowser" is-config="true" duration-ms="24434" started-at="2022-03-10T09:22:45Z" finished-at="2022-03-10T09:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="loginwithvalidemailpassword()[pri:1, instance:com.testcase_testng.TC_InvestorRetirmentProfile@72cc7e6f]" name="loginwithvalidemailpassword" duration-ms="6505" started-at="2022-03-10T09:23:10Z" finished-at="2022-03-10T09:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidemailpassword -->
+        <test-method status="PASS" signature="OpenProfile()[pri:2, instance:com.testcase_testng.TC_InvestorRetirmentProfile@72cc7e6f]" name="OpenProfile" duration-ms="37264" started-at="2022-03-10T09:23:16Z" finished-at="2022-03-10T09:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenProfile -->
+        <test-method status="PASS" signature="ValidateMandatoryRetirmentFields()[pri:3, instance:com.testcase_testng.TC_InvestorRetirmentProfile@72cc7e6f]" name="ValidateMandatoryRetirmentFields" duration-ms="6759" started-at="2022-03-10T09:23:53Z" finished-at="2022-03-10T09:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMandatoryRetirmentFields -->
+        <test-method status="PASS" signature="ValidateUSCitizenRetirmentFields()[pri:4, instance:com.testcase_testng.TC_InvestorRetirmentProfile@72cc7e6f]" name="ValidateUSCitizenRetirmentFields" duration-ms="30064" started-at="2022-03-10T09:24:00Z" finished-at="2022-03-10T09:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUSCitizenRetirmentFields -->
+        <test-method status="PASS" signature="ValidateNonUSCitizenRetirmentFields()[pri:5, instance:com.testcase_testng.TC_InvestorRetirmentProfile@72cc7e6f]" name="ValidateNonUSCitizenRetirmentFields" duration-ms="41803" started-at="2022-03-10T09:24:30Z" finished-at="2022-03-10T09:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNonUSCitizenRetirmentFields -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.testcase_testng.TC_InvestorRetirmentProfile@72cc7e6f]" name="TearDown" is-config="true" duration-ms="652" started-at="2022-03-10T09:25:12Z" finished-at="2022-03-10T09:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.testcase_testng.TC_InvestorRetirmentProfile -->
+    </test> <!-- AssureLabs -->
+  </suite> <!-- Default Suite -->
+</testng-results>

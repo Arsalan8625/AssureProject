@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="AssureLabs(failed)">
+    <classes>
+      <class name="com.testcase_testng.TC_InvestorRetirmentProfile">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="TearDown"/>
+          <include name="ValidateMandatoryRetirmentFields"/>
+        </methods>
+      </class> <!-- com.testcase_testng.TC_InvestorRetirmentProfile -->
+    </classes>
+  </test> <!-- AssureLabs(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

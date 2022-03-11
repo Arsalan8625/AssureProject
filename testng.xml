@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/Automation Projects/Alagzoo Projects">
+        <classes>
+            <class name="com.testcase_testng.TC_Login"></class>
+            <class name="com.testcase_testng.TC_IndividualProfile"></class>
+            <class name="com.testcase_testng.TC_EntityProfile"></class>
+            <class name="com.testcase_testng.TC_NewDeal"></class>
+                <class name="com.testcase_testng.TC_InvestorLogin"></class>
+                <class name="com.testcase_testng.TC_InvestorEntityProfile"></class>
+                <class name="com.testcase_testng.TC_InvestorTrustProfile"></class>
+                    <class name="com.testcase_testng.TC_InvestorJointProfile"></class>
+                    <class name="com.testcase_testng.TC_InvestorRetirmentProfile"></class>
+
+
+        </classes>
+    </test>
+</suite>
